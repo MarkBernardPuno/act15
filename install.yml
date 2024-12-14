@@ -10,12 +10,12 @@
   tasks:
     - name: Configure and Install Neutron
       include_role:
-        name: neutron
+        name: Neutron
 
     - name: Configure and Install Horizon
       include_role:
-        name: horizon
+        name: Horizon
 
     - name: Configure and Install Cinder
       include_role:
-        name: cinder
+        name: Cinder
